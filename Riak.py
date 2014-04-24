@@ -31,7 +31,7 @@ _whitelist = [
 ]
 
 
-class RiakPlugin(object):
+class Riak(object):
 
     def __init__(self, agentConfig, checksLogger, rawConfig):
         self.config = agentConfig
